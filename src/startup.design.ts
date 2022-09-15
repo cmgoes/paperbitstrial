@@ -18,7 +18,7 @@ import { OfflineModule } from "@paperbits/common/persistence/offline.module";
 import { DemoDesignModule } from "./modules/demo.design.module";
 
 /* Uncomment to enable Firebase module */
-// import { FirebaseModule } from "@paperbits/firebase/firebase.module";
+ import { FirebaseModule } from "@paperbits/firebase/firebase.module";
 
 /* Initializing dependency injection  */
 const injector = new InversifyInjector();
@@ -30,7 +30,7 @@ injector.bindModule(new ProseMirrorModule());
 injector.bindModule(new DemoDesignModule());
 
 /* Uncomment to enable Firebase module */
-// injector.bindModule(new FirebaseModule());
+injector.bindModule(new FirebaseModule());
 
 injector.bindModule(new OfflineModule({ autosave: false }));
 injector.resolve("autostart");

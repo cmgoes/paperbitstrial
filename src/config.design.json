@@ -1,16 +1,16 @@
 {
     "firebase": {
-        "apiKey": "< your API key >",
-        "authDomain": "< your domain >.firebaseapp.com",
-        "databaseURL": "https://< your database URL >.firebaseio.com",
-        "projectId": "< your project ID >",
+        "apiKey": "AIzaSyA-I2cT7slCSy9nRsx9gxZyIFWA0-Bzsjk",
+        "authDomain": "https://paperbitstrial.firebaseapp.com",
+        "databaseURL": "https://paperbitstrial-default-rtdb.firebaseio.com",
+        "projectId": "paperbitstrial",
         "storageBucket": "< your storage bucket >.appspot.com",
         "databaseRootKey": "/",
         "storageBasePath": "/",
         "auth": {
             "basic": {
-                "email": "< user email >",
-                "password": "< user password >"
+                "email": "mel.einsfar@gmail.com",
+                "password": "password1234"
             }  
         }
     },
